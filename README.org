@@ -1,1 +1,1 @@
-+#title: Mi nix config files.
+#+title: My NixOS configuration
