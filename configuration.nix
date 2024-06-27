@@ -133,7 +133,6 @@ in
     grimblast
     mako
     foot
-    swaylock-effects
     swww
     cron
     stow
@@ -147,7 +146,6 @@ in
     ffmpeg
     fastfetch
     wf-recorder
-    tofi
 
     # web
     firefox

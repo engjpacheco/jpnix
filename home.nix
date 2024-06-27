@@ -2,7 +2,7 @@
 #   ┃┣━┫┃┏┛┃┣╸ ┣┳┛   ╺━╸   ┣━┫┃ ┃┃┃┃┣╸  ┃┗┫┃┏╋┛
 # ┗━┛╹ ╹┗┛ ╹┗━╸╹┗╸         ╹ ╹┗━┛╹ ╹┗━╸╹╹ ╹╹╹ ╹
 
-{ config, pkgs, pkgs-unstable, ... }:
+{ config, pkgs, pkgs-unstable, hyprland, hyprland-plugins, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -17,6 +17,9 @@
   # environment.
 
   home.packages = [
+    # Environment
+    pkgs.hyprlock
+
     # Browser / web
     pkgs.nyxt
 
@@ -25,13 +28,13 @@
     # language servers
     pkgs.pyright
     pkgs.lua-language-server
-    pkgs.zellij
 
     # Terminal tools
-    pkgs.toilet
-    pkgs.yazi
+    pkgs.yazi   # File manager
+    pkgs.zellij # Terminal multiplexer
 
     # Generic tools.
+    pkgs.tofi
     # pkgs-unstable.gparted
   ];
 
