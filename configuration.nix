@@ -124,6 +124,7 @@ in
     gtk3
     graphite-gtk-theme 
     breeze-icons
+    bibata-cursors
     nwg-look
     libnotify
     networkmanager

@@ -18,6 +18,7 @@
 
   home.packages = [
     # Environment
+    pkgs.hypridle
     pkgs.hyprlock
 
     # Browser / web
@@ -28,6 +29,7 @@
     # language servers
     pkgs.pyright
     pkgs.lua-language-server
+    pkgs.hugo
 
     # Terminal tools
     pkgs.yazi   # File manager
